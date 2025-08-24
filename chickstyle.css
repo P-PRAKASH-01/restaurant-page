@@ -183,6 +183,7 @@ body {
     cursor: pointer;
     fill: var(--clr-dark);
     transition: var(--transition);
+    color:#fff;
 }
 
 .nav-close:hover i {
@@ -646,4 +647,5 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-image: linear-gradient(to left,var(--clr-primary),var(--clr-secondary),var(--clr-primary));
     border-radius: 5px;
+
 }
